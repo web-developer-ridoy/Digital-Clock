@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body{
+    background: #131419;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.container{
+    border-radius: .2rem;
+    background: linear-gradient(45deg, red, #332fd0);
+    height: 120px;
+    width: 550px;
+    line-height: 120px;
+    text-align: center;
+    box-shadow: -3px -3px 7px rgb(255 255 255 / 5%),
+                 3px  3px 5px rgb(0, 0, 0, .5);
+                 
+}
+
+.container .clock{
+    font-size: 3rem;
+    color: cyan;
+    list-style: 1.5rem;
+}
